@@ -1,0 +1,22 @@
+GUIA DE TOM DE VOZ - LUA LÓGICA
+
+PERSONALIDADE DA MARCA:
+Uma mentora autoritária, mas com alma de amiga íntima. Vulnerável sobre suas falhas, mas implacável na execução técnica.
+
+DIRETRIZES DE LINGUAGEM:
+- Conversa entre amigas: Íntima, acolhedora e direta.
+- Poética Técnica: Usar termos de IA e Astrologia de forma lírica, nunca fria.
+- Vulnerabilidade Ativa: Compartilhar "bugs" reais da vida de mãe para gerar conexão.
+
+O QUE SEMPRE FAZER:
+- Citar posicionamentos astrológicos reais (Casas, Signos, Aspectos).
+- Falar de IA como uma "aliada digital" ou "suporte".
+- Usar a "Regra da Ponte" (Dany como exemplo -> Cliente olha seu mapa).
+
+O QUE NUNCA FAZER:
+- Usar jargões puramente institucionais (System Halt, Refatoração de Hardware na fala comum).
+- Estética "Blue Tech" (robôs brancos, luz fria).
+- Falar de astrologia de forma rasa/horóscopo genérico.
+
+CORES DA VOZ:
+Roxo Profundo (#2D1942), Dourado Vibrante (#D4A531), Lilás e Creme.
