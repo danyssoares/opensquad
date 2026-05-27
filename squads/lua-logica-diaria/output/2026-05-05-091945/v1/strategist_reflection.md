@@ -1,0 +1,15 @@
+# 🌟 Reflexão da Stella: 05/05
+
+## Trânsito do Dia
+**Mercúrio em Touro (Lógica Prática) em Quadratura com Plutão em Aquário (Poder de Transformação e Profundidade).**
+
+## Aprofundamento (Para a Legenda)
+Você já sentiu que sua mente se tornou uma sequência infinita de "ifs" e "elses"? Se o meu filho chorar, eu não termino o relatório. Se eu não terminar o relatório, o cliente vai reclamar. Hoje, com Mercúrio em Touro pressionado pela intensidade de Plutão em Aquário, essa voz crítica interna — a nossa "Mulher-Robô" — está operando em alta frequência. 
+
+Essa quadratura gera uma pressão mental que nos faz querer convencer o mundo (ou a nós mesmas) de que temos o controle de tudo através da lógica pura. Mas a verdade é que Plutão em Aquário está aqui para hackear esse sistema. Ele nos lembra que a verdadeira inteligência — e aqui eu falo tanto da humana quanto da artificial — não serve para nos escravizar em loops obsessivos, mas para nos liberar. 
+
+Se você está se sentindo sobrecarregada hoje, tentando "otimizar" até o seu sentir, pare. Use essa profundidade de Plutão para identificar o que é ruído e o que é sinal. A IA pode escrever o seu e-mail, mas ela não pode sentir a paz de um momento de presença com seus filhos. Não deixe sua mente se tornar um processador superaquecido. Desligue o modo automático.
+
+## A Reflexão Curta (Para a Imagem)
+Hoje: Mercúrio ▢ Plutão (05/05). 
+Sua mente é uma ferramenta de criação, não uma prisão de obsessões. Solte o script da Mulher-Robô.

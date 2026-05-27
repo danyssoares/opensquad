@@ -1,0 +1,82 @@
+name: "Produção Lua Lógica"
+description: "Squad focado em crescimento orgânico através de conteúdo Astro-Tech (Substack, TikTok e Instagram)."
+icon: "🌙"
+version: "1.1.0"
+
+agents:
+  - id: "iris-analista"
+    name: "Iris"
+    role: "Analista de Dados e Métricas"
+    file: "agents/iris.md"
+
+  - id: "stella-estrategista"
+    name: "Stella"
+    role: "Estrategista de Conteúdo"
+    file: "agents/stella.md"
+
+  - id: "maya-redatora"
+    name: "Maya"
+    role: "Redatora de Substack"
+    file: "agents/maya.md"
+
+  - id: "luna-roteirista"
+    name: "Luna"
+    role: "Roteirista de TikTok"
+    file: "agents/luna.md"
+
+  - id: "aurora-designer"
+    name: "Aurora"
+    role: "Designer Visual e AI Artist"
+    file: "agents/aurora.md"
+
+  - id: "nova-headlines"
+    name: "Nova"
+    role: "Especialista em Headlines"
+    file: "agents/nova.md"
+
+  - id: "atlas-tech"
+    name: "Atlas"
+    role: "Curador Tech & LinkedIn"
+    file: "agents/atlas.md"
+
+pipeline:
+  - step: "Monitoramento de Métricas"
+    agent: "iris-analista"
+    description: "Analisa o desempenho da semana anterior no Substack, Instagram e TikTok e atualiza o banco de dados de métricas."
+    checkpoint: "Confirmar dados coletados pela Iris?"
+
+  - step: "Planejamento Estratégico"
+    agent: "stella-estrategista"
+    description: "Com base no céu do dia e nas métricas da Iris, seleciona um gatilho emocional para o tema da semana."
+    checkpoint: "Aprovar estratégia da semana?"
+
+  - step: "Escrita do Substack"
+    agent: "maya-redatora"
+    format: "email-newsletter"
+    description: "Desenvolve o texto longo baseado no tema estratégico, seguindo obrigatoriamente o modelo em `agents/template_substack.md`."
+    checkpoint: "Revisar Substack?"
+
+  - step: "Roteirização e Carrossel"
+    agent: "luna-roteirista"
+    format: "instagram-reels"
+    description: "Cria o script do TikTok e a copy do Carrossel adaptando o tema principal."
+    checkpoint: "Aprovar roteiro e copy?"
+
+  - step: "Design Visual"
+    agent: "aurora-designer"
+    format: "instagram-feed"
+    description: "Gera as imagens para o carrossel usando a identidade visual da Lua Lógica."
+    checkpoint: "Finalizar e baixar as artes?"
+
+  - step: "Refinamento de Headlines"
+    agent: "nova-headlines"
+    format: "copywriting"
+    description: "Gera 5 opções de títulos magnéticos para o Substack e scripts de vídeo."
+    checkpoint: "Escolher as melhores headlines?"
+
+  - step: "Conexão Tech (Quarta-feira)"
+    agent: "atlas-tech"
+    format: "linkedin-post,instagram-reels"
+    description: "Busca a notícia/ferramenta de IA da semana, aplica a Regra da Ponte com o céu do dia e gera o post do LinkedIn (texto + imagem) e o script de vídeo curto para o Instagram Reels."
+    checkpoint: "Aprovar conteúdo tech da quarta?"
+

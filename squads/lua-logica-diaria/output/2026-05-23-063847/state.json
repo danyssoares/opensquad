@@ -1,0 +1,50 @@
+{
+  "squad": "lua-logica-diaria",
+  "status": "completed",
+  "step": {
+    "current": 3,
+    "total": 3,
+    "label": "Criação Threads"
+  },
+  "agents": [
+    {
+      "id": "stella-diaria",
+      "name": "Stella",
+      "icon": "🌌",
+      "status": "done",
+      "desk": {
+        "col": 1,
+        "row": 1
+      }
+    },
+    {
+      "id": "aurora-diaria",
+      "name": "Aurora",
+      "icon": "🎨",
+      "status": "done",
+      "desk": {
+        "col": 2,
+        "row": 1
+      }
+    },
+    {
+      "id": "lyra-threads",
+      "name": "Lyra",
+      "icon": "💬",
+      "status": "done",
+      "desk": {
+        "col": 3,
+        "row": 1
+      }
+    }
+  ],
+  "handoff": {
+    "from": "lyra-threads",
+    "to": "stella-diaria",
+    "message": "O fluxo completo de conteúdo diário para o dia 23/05/2026 foi finalizado com sucesso. Legendas e mídias prontas para publicação.",
+    "completedAt": "2026-05-23T06:55:00-03:00"
+  },
+  "startedAt": "2026-05-23T06:38:47-03:00",
+  "updatedAt": "2026-05-23T06:55:00-03:00",
+  "completedAt": "2026-05-23T06:55:00-03:00"
+}

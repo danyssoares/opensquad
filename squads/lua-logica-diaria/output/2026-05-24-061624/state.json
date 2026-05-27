@@ -1,0 +1,41 @@
+{
+  "squad": "lua-logica-diaria",
+  "status": "completed",
+  "step": {
+    "current": 3,
+    "total": 3,
+    "label": "Criação Threads"
+  },
+  "agents": [
+    {
+      "id": "stella-diaria",
+      "name": "Stella",
+      "icon": "🌌",
+      "status": "done",
+      "desk": { "col": 1, "row": 1 }
+    },
+    {
+      "id": "aurora-diaria",
+      "name": "Aurora",
+      "icon": "🎨",
+      "status": "done",
+      "desk": { "col": 2, "row": 1 }
+    },
+    {
+      "id": "lyra-threads",
+      "name": "Lyra",
+      "icon": "💬",
+      "status": "done",
+      "desk": { "col": 3, "row": 1 }
+    }
+  ],
+  "handoff": {
+    "from": "aurora-diaria",
+    "to": "lyra-threads",
+    "message": "A imagem e o layout do post do Instagram foram criados com sucesso usando a identidade visual Creme Lunar, e enviados para a Lyra.",
+    "completedAt": "2026-05-24T07:05:00-03:00"
+  },
+  "startedAt": "2026-05-24T06:16:24-03:00",
+  "updatedAt": "2026-05-24T07:10:00-03:00",
+  "completedAt": "2026-05-24T07:10:00-03:00"
+}

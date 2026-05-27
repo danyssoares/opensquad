@@ -1,0 +1,40 @@
+{
+  "squad": "lua-logica-diaria",
+  "status": "completed",
+  "step": {
+    "current": 3,
+    "total": 3,
+    "label": "Finalizado"
+  },
+  "agents": [
+    {
+      "id": "stella-diaria",
+      "name": "Stella",
+      "icon": "🌌",
+      "status": "done",
+      "desk": { "col": 1, "row": 1 }
+    },
+    {
+      "id": "aurora-diaria",
+      "name": "Aurora",
+      "icon": "🎨",
+      "status": "done",
+      "desk": { "col": 2, "row": 1 }
+    },
+    {
+      "id": "lyra-threads",
+      "name": "Lyra",
+      "icon": "💬",
+      "status": "done",
+      "desk": { "col": 3, "row": 1 }
+    }
+  ],
+  "handoff": {
+    "from": "lyra-threads",
+    "to": "squad-master",
+    "message": "Execução diária concluída com sucesso! Todos os arquivos (Instagram, Imagem, HTML, e Threads) gerados e validados com a nova imagem da Chave Dourada e o hook instigante focado na legenda.",
+    "completedAt": "2026-05-25T11:22:00Z"
+  },
+  "startedAt": "2026-05-25T06:12:16Z",
+  "updatedAt": "2026-05-25T11:22:00Z"
+}

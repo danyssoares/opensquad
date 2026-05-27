@@ -1,0 +1,36 @@
+{
+  "squad": "lua-logica-diaria",
+  "status": "running",
+  "step": { "current": 1, "total": 3, "label": "Leitura do Céu" },
+  "agents": [
+    {
+      "id": "stella-diaria",
+      "name": "Stella",
+      "icon": "🌟",
+      "status": "done",
+      "desk": { "col": 1, "row": 1 }
+    },
+    {
+      "id": "aurora-diaria",
+      "name": "Aurora",
+      "icon": "🎨",
+      "status": "idle",
+      "desk": { "col": 2, "row": 1 }
+    },
+    {
+      "id": "lyra-threads",
+      "name": "Lyra",
+      "icon": "🧵",
+      "status": "idle",
+      "desk": { "col": 3, "row": 1 }
+    }
+  ],
+  "handoff": {
+    "from": "stella-diaria",
+    "to": "user",
+    "message": "Stella identificou o trânsito Mercúrio-Plutão e criou a reflexão para hoje.",
+    "completedAt": "2026-05-05T09:20:45Z"
+  },
+  "startedAt": "2026-05-05T09:20:15Z",
+  "updatedAt": "2026-05-05T09:20:45Z"
+}

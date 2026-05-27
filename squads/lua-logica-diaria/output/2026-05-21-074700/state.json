@@ -1,0 +1,50 @@
+{
+  "squad": "lua-logica-diaria",
+  "status": "completed",
+  "step": {
+    "current": 3,
+    "total": 3,
+    "label": "Criação Threads"
+  },
+  "agents": [
+    {
+      "id": "stella-diaria",
+      "name": "Stella",
+      "icon": "🌌",
+      "status": "done",
+      "desk": {
+        "col": 1,
+        "row": 1
+      }
+    },
+    {
+      "id": "aurora-diaria",
+      "name": "Aurora",
+      "icon": "🎨",
+      "status": "done",
+      "desk": {
+        "col": 2,
+        "row": 1
+      }
+    },
+    {
+      "id": "lyra-threads",
+      "name": "Lyra",
+      "icon": "💬",
+      "status": "done",
+      "desk": {
+        "col": 3,
+        "row": 1
+      }
+    }
+  ],
+  "handoff": {
+    "from": "aurora-diaria",
+    "to": "lyra-threads",
+    "message": "O design visual Roxo Profundo com o Leão de circuitos foi aprovado e a imagem final foi gerada e salva com o nano banana.",
+    "completedAt": "2026-05-21T10:42:00-03:00"
+  },
+  "startedAt": "2026-05-21T07:47:00-03:00",
+  "updatedAt": "2026-05-21T10:45:00-03:00",
+  "completedAt": "2026-05-21T10:45:00-03:00"
+}

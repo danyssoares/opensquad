@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700&family=Syne:wght@700;800&display=swap');
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      width: 1080px;
+      height: 1350px;
+      overflow: hidden;
+      background-color: #2D1942;
+      color: #F5F2E8;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      padding: 90px 80px 70px 80px;
+      position: relative;
+    }
+    
+    /* Background glows matching Mystic Tech */
+    .glow-top {
+      position: absolute;
+      top: -200px;
+      right: -200px;
+      width: 600px;
+      height: 600px;
+      background: radial-gradient(circle, rgba(201, 168, 76, 0.08), transparent 70%);
+      pointer-events: none;
+    }
+    
+    .glow-bottom {
+      position: absolute;
+      bottom: -200px;
+      left: -200px;
+      width: 600px;
+      height: 600px;
+      background: radial-gradient(circle, rgba(201, 168, 76, 0.05), transparent 70%);
+      pointer-events: none;
+    }
+    
+    /* Header layout */
+    .header {
+      width: 100%;
+      text-align: center;
+      z-index: 10;
+    }
+    
+    .date-transit {
+      font-size: 24px;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      color: #C9A84C; /* Gold detail */
+      margin-bottom: 8px;
+    }
+    
+    .divider {
+      width: 100%;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(201, 168, 76, 0.3), transparent);
+      margin-top: 16px;
+    }
+    
+    /* Graphic wrapper */
+    .graphic-container {
+      width: 100%;
+      height: 520px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 10;
+      position: relative;
+    }
+    
+    .lion-image {
+      max-height: 100%;
+      max-width: 100%;
+      object-fit: contain;
+      /* Subtle premium glow behind the element */
+      filter: drop-shadow(0 0 30px rgba(201, 168, 76, 0.15));
+    }
+    
+    /* Footer/Hook layout */
+    .content-footer {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+      z-index: 10;
+    }
+    
+    .hook-text {
+      font-family: 'Syne', sans-serif;
+      font-size: 46px;
+      font-weight: 800;
+      line-height: 1.35;
+      text-align: center;
+      color: #F5F2E8;
+      max-width: 900px;
+      letter-spacing: -0.02em;
+    }
+    
+    .brand-footer {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 22px;
+      font-weight: 500;
+      color: rgba(245, 242, 232, 0.4);
+      letter-spacing: 2px;
+      border-top: 1px solid rgba(245, 242, 232, 0.08);
+      padding-top: 24px;
+    }
+    
+    .brand-handle {
+      color: #C9A84C;
+      font-weight: 700;
+    }
+    
+    .action-text {
+      text-transform: uppercase;
+      font-size: 18px;
+      letter-spacing: 3px;
+    }
+  </style>
+</head>
+<body>
+  <div class="glow-top"></div>
+  <div class="glow-bottom"></div>
+  
+  <div class="header">
+    <div class="date-transit">21/05 | LUA EM LEÃO + SOL EM GÊMEOS COM URANO</div>
+    <div class="divider"></div>
+  </div>
+  
+  <div class="graphic-container">
+    <img class="lion-image" src="lion_graphic.png" alt="Lion with circuit traces">
+  </div>
+  
+  <div class="content-footer">
+    <div class="hook-text">Lua em Leão + Urano: A coragem de ser a "estranha" que dá certo.</div>
+    
+    <div class="brand-footer">
+      <span class="brand-handle">@lualogica</span>
+      <span class="action-text">TOQUE PARA LER A LEGENDA →</span>
+    </div>
+  </div>
+</body>
+</html>

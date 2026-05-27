@@ -1,0 +1,39 @@
+name: "Lua Lógica Diária"
+description: "Squad ágil para criação de posts diários (Instagram e Threads) baseados nos trânsitos astrológicos e na realidade mãe-tech."
+icon: "☀️"
+version: "1.2.0"
+
+agents:
+  - id: "stella-diaria"
+    name: "Stella"
+    role: "Estrategista de Trânsitos"
+    file: "agents/stella_diaria.md"
+
+  - id: "aurora-diaria"
+    name: "Aurora"
+    role: "Designer de Posts Rápidos (Instagram)"
+    file: "agents/aurora_diaria.md"
+
+  - id: "lyra-threads"
+    name: "Lyra"
+    role: "Especialista em Threads"
+    file: "agents/lyra_threads.md"
+
+pipeline:
+  - step: "Leitura do Céu"
+    agent: "stella-diaria"
+    format: "strategist"
+    description: "Identifica o trânsito do dia e cria a reflexão central para a marca."
+    checkpoint: "Aprovar a reflexão do dia?"
+
+  - step: "Criação Instagram"
+    agent: "aurora-diaria"
+    format: "instagram-feed"
+    description: "Gera a imagem e a legenda para o Instagram seguindo a hierarquia visual."
+    checkpoint: "Aprovar post do Instagram?"
+
+  - step: "Criação Threads"
+    agent: "lyra-threads"
+    format: "twitter-thread"
+    description: "Cria as notas ou fios de valor para o Threads focados em engajamento e humanização."
+    checkpoint: "Aprovar as Threads do dia?"
